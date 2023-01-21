@@ -13,7 +13,8 @@ As the name suggests in this all the parts of the application ran together and w
 	Avoid having cross functional dependencies between microservices. Eg: If we have a service for authentication and authorization and another for user profile, the profile service should not call the authorization service before executing its own function.
 3. Single Responsibility principle to facilitate updates
 	According to this principle there should only be a single reason to update the microservice *i.e* when updating a microservice the changes should be minimal and that is possible only if it is of the optimal size.
-4. Desgn for Failure
+4. Design for Failure
 	Goes hand in hand with the curcuit breaker design pattern which works by controlling the flow of failure whenever it occurs. In case of microservices this can be implemented when a particular service goes down for eg a database service but the application service keeps on working without being affected. We can easily stop the communication that was happening between the two services earlier.
 5. Buisiness/Task Capability
-	According to this a microservice should handle only a particular single *buisiness/task* properlyto improve performance and reduce the chances of failure. This helps in ensuring scalability
+	According to this a microservice should handle only a particular single *buisiness/task* properlyto improve performance and reduce the chances of failure. This helps in ensuring scalability.
+6. 

@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f5f2f6544adeaaa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microservices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c689705d6fe99c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Microservices.md",
+                "file": "Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Microservices.md",
+                "file": "Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Microservices.md"
+                "file": "Kubernetes.md"
               }
             }
           }
@@ -146,6 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "586a40d9a4ef5d51",
-  "lastOpenFiles": []
+  "active": "6c689705d6fe99c3",
+  "lastOpenFiles": [
+    "Microservices.md",
+    "website.md"
+  ]
 }
